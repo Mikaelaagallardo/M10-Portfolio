@@ -1,0 +1,43 @@
+---
+title: "Welcome to My Portfolio"
+about:
+  template: jolla
+  image: profile.jpg
+  links:
+    - icon: github
+      text: GitHub
+      href: https://github.com/Mikaelaagallardo
+---
+
+# Biography & Introduction
+
+## Career Aspiration
+
+My career goal is to become a marketer within the entertainment field with a specific passion for the movie and music industries. My ultimate objective is to secure a role as a Creative Coordinator or a Social Media Marketer. I am deeply driven to combine my technical marketing knowledge with creative storytelling to build memorable campaigns that resonate with audiences.
+
+---
+
+## Skills
+
+### Professional & Creative Skills
+
+* **Content Creation:** 
+Experienced in digital content creation and video editing, specifically producing short video edits that visually connect lyrics with imagery to engage specific target audiences.
+
+* **Project Management:** 
+Highly organized, detail-oriented, and possess strong time management skills.
+
+### Tools & Software
+* **Video Editing Platforms:** CapCut, AlightMotion
+* **Social Media Ecosystems:** TikTok, Instagram, Snapchat
+* **Data & Productivity:** Microsoft Excel, Word, PowerPoint, and Google Docs
+* **Analytics Tools:** Google Analytics 4 (GA4 Certified)
+
+---
+
+## Education
+
+* **Bachelor of Science in Business Administration:**
+  * *Major:* Marketing Management
+  * *Status:* Senior (Graduating Spring 2027)
+  * *University:* California State Polytechnic University, Pomona (Cal Poly Pomona)

@@ -1,0 +1,39 @@
+---
+title: "Essay on Shiny Live"
+---
+
+# Lecture Notes: Moving Serverless with Shinylive
+
+## What is Shinylive?
+
+**Shinylive** is a technology that allows Shiny applications to run entirely inside a user's web browser, removing the need for a backend R server.
+
+As web apps tend to rely on a cloud server to process data and return results, Shinylive uses **WebAssembly (Wasm)** to load the R runtime engine. It does this directly into the user's browser which allows the app to run locally on their computer or mobile device.
+
+---
+
+## How Does it Differ from Traditional Shiny Apps?
+
+The main difference is **where the data processing happens:**
+
+* **Traditional Shiny:** Needs a live, running server in the cloud. Every time you move a slider, your browser sends a message to the cloud in which the cloud computer processes the R code and sends the updated visual back to the browser.
+
+* **Shinylive:** Completely **serverless** and covers all calculations, data filtering, and chart generation that happen's locally on the user's machine when you first open the website. Doing so, Shinylive downloads the R environment right into your browser.
+
+---
+
+## Pros and Cons of Shinylive
+
+### Pros (The Advantages)
+* **Free & Easy Hosting:** Without a backend R server, you can host these apps completely free on static hosting sites like GitHub Pages.
+
+* **Infinite Scaling:** Traditional servers can crash under heavy traffic, but with Shinylive, thousands of people can use the app simultaneously because it runs on the users' hardware.
+
+* **Data Privacy:** Because data stays inside the user's local browser and never travels to a cloud server, it is highly secure.
+
+### Cons (The Disadvantages)
+* **Initial Load Time:** The first time a user opens the app, it can take a few seconds to download the core R engine into the browser.
+
+* **Device Resource Heavy:** Because the user's computer does the computing, large datasets or complex models can slow down older devices.
+
+* **Package Limitations:** Not every R package works with WebAssembly yet, so some niche libraries may not work.

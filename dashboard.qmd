@@ -1,0 +1,57 @@
+---
+title: "Data Insights Dashboard"
+format:
+  dashboard:
+    orientation: rows
+---
+
+# Public Engagement
+
+## Row {height=35%}
+
+### {quarto-aea}
+
+```{r}
+#| title: Total Video Views (Tiktok/Instagram)
+#| component: valuebox
+#| icon: play-circle
+#| color: primary
+list(
+  value = "124.5K",
+  caption = "Total Views This Month"
+)
+```
+
+### {quarto-aea}
+
+```{r}
+#| title: GA4 Engagement Rate
+#| component: valuebox
+#| icon: graph-up
+#| color: success
+list(
+  value = "68.2%",
+  caption = "Target: 60%"
+)
+```
+
+## Row {height=65%}
+
+### {quarto-aea}
+
+```{r}
+#| title: Audience Growth Over Time
+library(ggplot2)
+
+# Simple marketing data tracker
+months <- factor(c("Jan", "Feb", "Mar", "Apr", "May", "Jun"),
+                 levels = c("Jan", "Feb", "Mar", "Apr", "May", "Jun"))
+followers <- c(1200, 1500, 2100, 3400, 4200, 5600)
+data <- data.frame(Month = months, Followers = followers)
+
+ggplot(data, aes(x = Month, y = Followers, group = 1)) +
+  geom_line(color = "#6f42c1", linewidth = 1.5) +
+  geom_point(color = "#d63384", size = 3) +
+  theme_minimal() +
+  labs(x = "2026 Timeline", y = "Total Followers")
+```

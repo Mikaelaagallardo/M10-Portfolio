@@ -1,0 +1,107 @@
+[
+  {
+    "objectID": "index.html",
+    "href": "index.html",
+    "title": "Welcome to My Portfolio",
+    "section": "",
+    "text": "My career goal is to become a marketer within the entertainment field with a specific passion for the movie and music industries. My ultimate objective is to secure a role as a Creative Coordinator or a Social Media Marketer. I am deeply driven to combine my technical marketing knowledge with creative storytelling to build memorable campaigns that resonate with audiences.\n\n\n\n\n\n\n\nContent Creation: Experienced in digital content creation and video editing, specifically producing short video edits that visually connect lyrics with imagery to engage specific target audiences.\nProject Management: Highly organized, detail-oriented, and possess strong time management skills.\n\n\n\n\n\nVideo Editing Platforms: CapCut, AlightMotion\nSocial Media Ecosystems: TikTok, Instagram, Snapchat\nData & Productivity: Microsoft Excel, Word, PowerPoint, and Google Docs\nAnalytics Tools: Google Analytics 4 (GA4 Certified)\n\n\n\n\n\n\n\nBachelor of Science in Business Administration:\n\nMajor: Marketing Management\nStatus: Senior (Graduating Spring 2027)\nUniversity: California State Polytechnic University, Pomona (Cal Poly Pomona)"
+  },
+  {
+    "objectID": "index.html#career-aspiration",
+    "href": "index.html#career-aspiration",
+    "title": "Welcome to My Portfolio",
+    "section": "",
+    "text": "My career goal is to become a marketer within the entertainment field with a specific passion for the movie and music industries. My ultimate objective is to secure a role as a Creative Coordinator or a Social Media Marketer. I am deeply driven to combine my technical marketing knowledge with creative storytelling to build memorable campaigns that resonate with audiences."
+  },
+  {
+    "objectID": "index.html#skills",
+    "href": "index.html#skills",
+    "title": "Welcome to My Portfolio",
+    "section": "",
+    "text": "Content Creation: Experienced in digital content creation and video editing, specifically producing short video edits that visually connect lyrics with imagery to engage specific target audiences.\nProject Management: Highly organized, detail-oriented, and possess strong time management skills.\n\n\n\n\n\nVideo Editing Platforms: CapCut, AlightMotion\nSocial Media Ecosystems: TikTok, Instagram, Snapchat\nData & Productivity: Microsoft Excel, Word, PowerPoint, and Google Docs\nAnalytics Tools: Google Analytics 4 (GA4 Certified)"
+  },
+  {
+    "objectID": "index.html#education",
+    "href": "index.html#education",
+    "title": "Welcome to My Portfolio",
+    "section": "",
+    "text": "Bachelor of Science in Business Administration:\n\nMajor: Marketing Management\nStatus: Senior (Graduating Spring 2027)\nUniversity: California State Polytechnic University, Pomona (Cal Poly Pomona)"
+  },
+  {
+    "objectID": "shiny_live.html",
+    "href": "shiny_live.html",
+    "title": "Essay on Shiny Live",
+    "section": "",
+    "text": "Shinylive is a technology that allows Shiny applications to run entirely inside a user’s web browser, removing the need for a backend R server.\nAs web apps tend to rely on a cloud server to process data and return results, Shinylive uses WebAssembly (Wasm) to load the R runtime engine. It does this directly into the user’s browser which allows the app to run locally on their computer or mobile device.\n\n\n\n\nThe main difference is where the data processing happens:\n\nTraditional Shiny: Needs a live, running server in the cloud. Every time you move a slider, your browser sends a message to the cloud in which the cloud computer processes the R code and sends the updated visual back to the browser.\nShinylive: Completely serverless and covers all calculations, data filtering, and chart generation that happen’s locally on the user’s machine when you first open the website. Doing so, Shinylive downloads the R environment right into your browser.\n\n\n\n\n\n\n\n\nFree & Easy Hosting: Without a backend R server, you can host these apps completely free on static hosting sites like GitHub Pages.\nInfinite Scaling: Traditional servers can crash under heavy traffic, but with Shinylive, thousands of people can use the app simultaneously because it runs on the users’ hardware.\nData Privacy: Because data stays inside the user’s local browser and never travels to a cloud server, it is highly secure.\n\n\n\n\n\nInitial Load Time: The first time a user opens the app, it can take a few seconds to download the core R engine into the browser.\nDevice Resource Heavy: Because the user’s computer does the computing, large datasets or complex models can slow down older devices.\nPackage Limitations: Not every R package works with WebAssembly yet, so some niche libraries may not work."
+  },
+  {
+    "objectID": "shiny_live.html#what-is-shinylive",
+    "href": "shiny_live.html#what-is-shinylive",
+    "title": "Essay on Shiny Live",
+    "section": "",
+    "text": "Shinylive is a technology that allows Shiny applications to run entirely inside a user’s web browser, removing the need for a backend R server.\nAs web apps tend to rely on a cloud server to process data and return results, Shinylive uses WebAssembly (Wasm) to load the R runtime engine. It does this directly into the user’s browser which allows the app to run locally on their computer or mobile device."
+  },
+  {
+    "objectID": "shiny_live.html#how-does-it-differ-from-traditional-shiny-apps",
+    "href": "shiny_live.html#how-does-it-differ-from-traditional-shiny-apps",
+    "title": "Essay on Shiny Live",
+    "section": "",
+    "text": "The main difference is where the data processing happens:\n\nTraditional Shiny: Needs a live, running server in the cloud. Every time you move a slider, your browser sends a message to the cloud in which the cloud computer processes the R code and sends the updated visual back to the browser.\nShinylive: Completely serverless and covers all calculations, data filtering, and chart generation that happen’s locally on the user’s machine when you first open the website. Doing so, Shinylive downloads the R environment right into your browser."
+  },
+  {
+    "objectID": "shiny_live.html#pros-and-cons-of-shinylive",
+    "href": "shiny_live.html#pros-and-cons-of-shinylive",
+    "title": "Essay on Shiny Live",
+    "section": "",
+    "text": "Free & Easy Hosting: Without a backend R server, you can host these apps completely free on static hosting sites like GitHub Pages.\nInfinite Scaling: Traditional servers can crash under heavy traffic, but with Shinylive, thousands of people can use the app simultaneously because it runs on the users’ hardware.\nData Privacy: Because data stays inside the user’s local browser and never travels to a cloud server, it is highly secure.\n\n\n\n\n\nInitial Load Time: The first time a user opens the app, it can take a few seconds to download the core R engine into the browser.\nDevice Resource Heavy: Because the user’s computer does the computing, large datasets or complex models can slow down older devices.\nPackage Limitations: Not every R package works with WebAssembly yet, so some niche libraries may not work."
+  },
+  {
+    "objectID": "dashboard.html",
+    "href": "dashboard.html",
+    "title": "Data Insights Dashboard",
+    "section": "",
+    "text": "list(\n  value = \"124.5K\",\n  caption = \"Total Views This Month\"\n)\n\n$value\n[1] \"124.5K\"\n\n$caption\n[1] \"Total Views This Month\"\n\n\n\n\n\n\nlist(\n  value = \"68.2%\",\n  caption = \"Target: 60%\"\n)\n\n$value\n[1] \"68.2%\"\n\n$caption\n[1] \"Target: 60%\"\n\n\n\n\n\n\n\n\n\nlibrary(ggplot2)\n\n# Simple marketing data tracker\nmonths &lt;- factor(c(\"Jan\", \"Feb\", \"Mar\", \"Apr\", \"May\", \"Jun\"),\n                 levels = c(\"Jan\", \"Feb\", \"Mar\", \"Apr\", \"May\", \"Jun\"))\nfollowers &lt;- c(1200, 1500, 2100, 3400, 4200, 5600)\ndata &lt;- data.frame(Month = months, Followers = followers)\n\nggplot(data, aes(x = Month, y = Followers, group = 1)) +\n  geom_line(color = \"#6f42c1\", linewidth = 1.5) +\n  geom_point(color = \"#d63384\", size = 3) +\n  theme_minimal() +\n  labs(x = \"2026 Timeline\", y = \"Total Followers\")"
+  },
+  {
+    "objectID": "dashboard.html#row",
+    "href": "dashboard.html#row",
+    "title": "Data Insights Dashboard",
+    "section": "",
+    "text": "list(\n  value = \"124.5K\",\n  caption = \"Total Views This Month\"\n)\n\n$value\n[1] \"124.5K\"\n\n$caption\n[1] \"Total Views This Month\"\n\n\n\n\n\n\nlist(\n  value = \"68.2%\",\n  caption = \"Target: 60%\"\n)\n\n$value\n[1] \"68.2%\"\n\n$caption\n[1] \"Target: 60%\""
+  },
+  {
+    "objectID": "dashboard.html#row-1",
+    "href": "dashboard.html#row-1",
+    "title": "Data Insights Dashboard",
+    "section": "",
+    "text": "library(ggplot2)\n\n# Simple marketing data tracker\nmonths &lt;- factor(c(\"Jan\", \"Feb\", \"Mar\", \"Apr\", \"May\", \"Jun\"),\n                 levels = c(\"Jan\", \"Feb\", \"Mar\", \"Apr\", \"May\", \"Jun\"))\nfollowers &lt;- c(1200, 1500, 2100, 3400, 4200, 5600)\ndata &lt;- data.frame(Month = months, Followers = followers)\n\nggplot(data, aes(x = Month, y = Followers, group = 1)) +\n  geom_line(color = \"#6f42c1\", linewidth = 1.5) +\n  geom_point(color = \"#d63384\", size = 3) +\n  theme_minimal() +\n  labs(x = \"2026 Timeline\", y = \"Total Followers\")"
+  },
+  {
+    "objectID": "about.html",
+    "href": "about.html",
+    "title": "About",
+    "section": "",
+    "text": "About this site\n\n1 + 1\n\n[1] 2"
+  },
+  {
+    "objectID": "shiny_apps.html",
+    "href": "shiny_apps.html",
+    "title": "Essay on Shiny Apps",
+    "section": "",
+    "text": "Shiny is a tool in R that lets you turn boring, flat data reports into interactive web pages. The best part is that you don’t need to learn any complex web coding such as HTML, CSS, or JavaScript to use it.\nWith Shiny, we can build web-based dashboards where users can filter data, adjust timelines, and see charts change instantly in real-time.\n\n\n\n\nEvery Shiny app is split into two main parts which is: The User Interface (UI) and the Server.\n\n\nThe UI (User Interface) is what the user actively sees on their screen. * Inputs: Sliders, dropdown menus, date pickers, and text boxes that users click on. * Outputs: The visual placeholders where charts, tables, or text will be calculated then displayed.\n\n\n\nThe Server is the hidden part that provides instructions on how to calculate data and draw graphics, handling all of the heavy lifting. * It watches the UI to see what the user clicked. * It runs the R code in the background to change the data. * It shoots the brand-new chart back to the UI for the user to see.\n\n\n\nAt the end of the script, the UI and Server are connected using a single command which is: shinyApp(ui = ui, server = server)."
+  },
+  {
+    "objectID": "shiny_apps.html#introduction-to-shiny",
+    "href": "shiny_apps.html#introduction-to-shiny",
+    "title": "Essay on Shiny Apps",
+    "section": "",
+    "text": "Shiny is a tool in R that lets you turn boring, flat data reports into interactive web pages. The best part is that you don’t need to learn any complex web coding such as HTML, CSS, or JavaScript to use it.\nWith Shiny, we can build web-based dashboards where users can filter data, adjust timelines, and see charts change instantly in real-time."
+  },
+  {
+    "objectID": "shiny_apps.html#core-components-of-a-shiny-app",
+    "href": "shiny_apps.html#core-components-of-a-shiny-app",
+    "title": "Essay on Shiny Apps",
+    "section": "",
+    "text": "Every Shiny app is split into two main parts which is: The User Interface (UI) and the Server.\n\n\nThe UI (User Interface) is what the user actively sees on their screen. * Inputs: Sliders, dropdown menus, date pickers, and text boxes that users click on. * Outputs: The visual placeholders where charts, tables, or text will be calculated then displayed.\n\n\n\nThe Server is the hidden part that provides instructions on how to calculate data and draw graphics, handling all of the heavy lifting. * It watches the UI to see what the user clicked. * It runs the R code in the background to change the data. * It shoots the brand-new chart back to the UI for the user to see.\n\n\n\nAt the end of the script, the UI and Server are connected using a single command which is: shinyApp(ui = ui, server = server)."
+  }
+]

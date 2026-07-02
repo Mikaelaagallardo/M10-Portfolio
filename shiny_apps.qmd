@@ -1,0 +1,33 @@
+---
+title: "Essay on Shiny Apps"
+---
+
+# Lecture Notes: Building Interactive Web Apps with Shiny
+
+## Introduction to Shiny
+
+**Shiny** is a tool in R that lets you turn boring, flat data reports into interactive web pages. The best part is that you don't need to learn any complex web coding such as HTML, CSS, or JavaScript to use it. 
+
+With Shiny, we can build web-based dashboards where users can filter data, adjust timelines, and see charts change instantly in real-time.
+
+---
+
+## Core Components of a Shiny App
+
+Every Shiny app is split into two main parts which is: The **User Interface (UI)** and the **Server**.
+
+### 1. The User Interface (UI)
+The UI (User Interface) is what the user actively sees on their screen.
+* **Inputs:** Sliders, dropdown menus, date pickers, and text boxes that users click on.
+* **Outputs:** The visual placeholders where charts, tables, or text will be calculated then displayed.
+
+### 2. The Server Function
+The Server is the hidden part that provides instructions on how to calculate data and draw graphics, handling all of the heavy lifting.
+* It watches the UI to see what the user clicked.
+* It runs the R code in the background to change the data.
+* It shoots the brand-new chart back to the UI for the user to see.
+
+### 3. The `shinyApp()` Call
+At the end of the script, the UI and Server are connected using a single command which is: `shinyApp(ui = ui, server = server)`.
+
+---
